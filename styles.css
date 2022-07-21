@@ -1,0 +1,203 @@
+/* Common Styles*/
+
+* {
+    border-radius: 10px;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background: #1F2937;
+}
+
+/*Navbar and Header*/
+
+.nav-header button {
+    padding: 9px 22px;
+    font-weight: bold;
+    color: white;
+    background: #3882F6;
+    border: 0;
+    transition-duration: 0.6s;
+}
+
+.nav-header button:hover {
+    color: #3882F6;
+    background: white;
+}
+
+.nav-header {
+    height: 400px;
+}
+
+/*Navbar*/
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/*Header*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .container {
+    width: 450px;
+}
+
+.container h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+.container p {
+    color: #E5E7EB;
+    margin: 10px 0;
+}
+
+.header .image {
+    width: 450px;
+    background: grey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Informations*/
+
+.info {
+    height: 400px;
+    color: #1F2937;
+    background: white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+}
+
+.box .image {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box {
+    max-width: 150px;
+    text-align: center;
+}
+
+/*Quote*/
+
+.quote {
+    height: 400px;
+    color: #1F2937;
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quote .sentence {
+    width: 760px;
+    font-size: 28px;
+    margin: 0;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote .person {
+    margin: 0;
+    width: 760px;
+    font-weight: bold;
+    font-size: 18px;
+    direction: rtl;
+}
+
+/*Sign Up*/
+
+.sign-up {
+    height: 300px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #3882F6;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+
+.sign-up button {
+    padding: 7px 20px;
+    font-weight: bold;
+    color: white;
+    background: #3882F6;
+    border: 2px solid white;
+    transition-duration: 0.6s;
+}
+
+.sign-up button:hover {
+    background: white;
+    color: #3882F6;
+}
+
+/*Footer*/
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
