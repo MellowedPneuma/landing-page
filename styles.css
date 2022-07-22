@@ -7,7 +7,7 @@
 body {
     max-width: 1000px;
     margin: 0 auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     background: #1F2937;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 .nav-header {
-    height: 400px;
+    height: 380px;
 }
 
 /*Navbar*/
@@ -44,6 +44,7 @@ body {
 a {
     text-decoration: none;
     color: white;
+    transition-duration: 0.4s;
 }
 
 a:hover {
@@ -54,7 +55,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .navbar .logo {
@@ -95,7 +96,7 @@ a:hover {
 /*Informations*/
 
 .info {
-    height: 400px;
+    height: 380px;
     color: #1F2937;
     background: white;
     margin-bottom: 20px;
@@ -109,12 +110,12 @@ a:hover {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-    margin-top: 0;
+    margin: 0 0 50px;
 }
 
 .box .image {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border: 5px solid #3882F6;
     border-radius: 10px;
 }
@@ -133,7 +134,7 @@ a:hover {
 /*Quote*/
 
 .quote {
-    height: 400px;
+    height: 380px;
     color: #1F2937;
     background: #E5E7EB;
     display: flex;
@@ -162,7 +163,7 @@ a:hover {
 /*Sign Up*/
 
 .sign-up {
-    height: 300px;
+    height: 290px;
     background: white;
     display: flex;
     justify-content: center;
@@ -173,10 +174,14 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     background: #3882F6;
-    padding: 10px 70px;
+    padding: 20px 70px;
     border-radius: 10px;
+}
+
+.sign-up h3 {
+    margin: 10px 0;
 }
 
 .sign-up button {
@@ -196,7 +201,7 @@ a:hover {
 /*Footer*/
 
 footer {
-    height: 100px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
